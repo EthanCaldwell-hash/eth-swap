@@ -1,0 +1,38 @@
+{
+  "name": "solana-token-exchange",
+  "version": "1.0.0",
+  "description": "Solana-based automated token exchange and burn mechanism",
+  "main": "index.js",
+  "scripts": {
+    "test": "anchor test",
+    "build": "anchor build",
+    "deploy": "anchor deploy",
+    "lint": "eslint . --ext .ts",
+    "start": "ts-node app/index.ts"
+  },
+  "keywords": [
+    "solana",
+    "blockchain",
+    "token-exchange",
+    "defi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.78.0",
+    "@solana/spl-token": "^0.3.8"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.1",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.1.6",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0"
+  }
+}
